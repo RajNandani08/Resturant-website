@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="order.css">                                    <!-- url of the page the link goes to -->
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Menu.html">WELCOME</a></li>                       <!-- List of Links -->
+                <li><a href="order.html">Place Order</a></li>
+                <li><a href="record.html">All Records</a></li>
+                <li><a href="index.html">Logout</a></li> 
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container">
+        <h2>Place Your Order Here !! </h2>
+    </div>
+    <div class="menu">
+        <form>
+                <label for="items">Items</label>                                   <!-- List of items defined here -->
+                <select id="items">
+                    <option value="items">Select Items</option>
+                    <option value="tea">Tea</option>
+                    <option value="coffee">Coffee</option>
+                    <option value="samosa">Samosa</option>
+                    <option value="tarri poha">Tarri Poha</option>
+                </select>
+                <label for="rate">Rate</label>
+                <select id="rate">                                                  <!-- List of Rate of respective items -->
+                    <option value="rate">Select Rate</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="20">20</option>
+                </select>
+                <label for="Quantity">Quantity</label>
+                <select id="Quantity">                                                <!--No. of quantity we can choose -->
+                    <option value="quantity">Select Quantity</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                </select>
+                <label for="Total Price">Total Price</label>                              <!-- total price of items-->
+                <input type="text" name="Total Price" size="15" placeholder="Total Rate of Your Items">
+                <input type="submit" value="Submit">  
+            </form>
+    </div>
+</body>   
+</html>
